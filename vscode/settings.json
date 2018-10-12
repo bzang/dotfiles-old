@@ -1,0 +1,55 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'Inconsolata for Powerline', Monaco, monospace",
+    "editor.fontSize": 15,
+    "editor.rulers": [80,120],
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "files.exclude": {
+        "**/.git": true,
+        ".git": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "packages/node_modules/**": false,
+        "node_modules/**": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "/node_modules/**": true
+    },
+    "search.exclude": {
+        "**/bower_components": true,
+        "packages/node_modules": false
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": 0,
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "gitlens.keymap": "alternate",
+    "javascript.validate.enable": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "search.location": "panel",
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.currentLine.enabled": false,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ]
+}

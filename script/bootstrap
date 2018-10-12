@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+#
+# bootstrap installs things.
+
+cd "$(dirname "$0")/.."
+DOTFILES_ROOT=$(pwd)
+
+source "$(dirname "$0")/helpers"
+
+set -e
+
+echo ''
+
+source "$(dirname "$0")/git_config"
+source "$(dirname "$0")/install_dotfiles"
+
+# If we're on a Mac, let's install and setup homebrew.
+if [ "$(uname -s)" == "Darwin" ]
+then
+  info "installing dependencies"
+  if source bin/dot-setup > /tmp/dotfiles-dot 2>&1
+  then
+    success "dependencies installed"
+  else
+    fail "error installing dependencies"
+  fi
+fi
+
+echo ''
+echo '  All installed!'
