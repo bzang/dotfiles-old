@@ -1,7 +1,7 @@
 #!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby
 # This script installs to ~/.dotfiles
-USER_PREFIX = ENV['HOME'].freeze
-CHECKOUT_LOCATION = "%{USER_PREFIX}/.dotfiles".freeze
+USER_PREFIX = "#{ENV["HOME"]}".freeze
+CHECKOUT_LOCATION = "#{USER_PREFIX}/.dotfiles".freeze
 GITHUB_URL = 'https://github.com/bzang/dotfiles'.freeze
 GIT_REPO = 'git@github.com:bzang/dotfiles.git'.freeze
 
@@ -120,7 +120,7 @@ def git
   @git ||=
   if ENV['GIT'] && File.executable?(ENV['GIT'])
     ENV['GIT']
-  elsif Kernel.system '/usr/bin/which -s git'
+  elsif Kernel.system '/usr/bin/whichw -s git'
     'git'
   else
     exe = `xcrun -find git 2>/dev/null`.chomp
@@ -242,6 +242,7 @@ Xcode.app or running:
 EOABORT
 
 ohai "Downloading and installing dotfiles..."
+
 Dir.chdir CHECKOUT_LOCATION do
   if git
     # we do it in four steps to avoid merge errors when reinstalling
