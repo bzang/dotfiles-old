@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-code --list-extensions > $HOME/.dotfiles/vscode/extentions_list.txt
+code --list-extensions > $HOME/.dotfiles/vscode/extensions_list.txt
