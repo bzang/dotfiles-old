@@ -23,7 +23,6 @@
         "**/bower_components": true,
         "packages/node_modules": false
     },
-    "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "vscode-icons",
     "explorer.openEditors.visible": 0,
     "window.zoomLevel": 0,
@@ -52,5 +51,6 @@
             "token": "system"
         }
     ],
-    "terminal.external.osxExec": "iTerm2.app"
+    "terminal.external.osxExec": "iTerm2.app",
+    "workbench.colorTheme": "One Dark Pro",
 }
