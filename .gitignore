@@ -1,5 +1,5 @@
 git/gitconfig.symlink
 node_modules
-vscode/workspaceStorage
-vscode/*.backup
+vscode/**/workspaceStorage
+vscode/**/*.backup
 .DS_Store

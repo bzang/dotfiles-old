@@ -51,5 +51,6 @@
             "username": "oauth",
             "token": "system"
         }
-    ]
+    ],
+    "terminal.external.osxExec": "iTerm2.app"
 }
