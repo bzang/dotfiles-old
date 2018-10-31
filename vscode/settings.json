@@ -45,7 +45,7 @@
     "search.location": "panel",
     "gitlens.historyExplorer.enabled": true,
     "gitlens.currentLine.enabled": false,
-    "github.hosts": [
+    "githubPullRequests.hosts": [
         {
             "host": "https://github.com",
             "username": "oauth",

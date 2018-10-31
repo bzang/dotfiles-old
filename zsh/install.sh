@@ -8,7 +8,7 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   fi
 done
 
-ln -s "${ZDOTDIR:-$HOME}/.dotfiles/zsh/prompt_setup" "${ZDOTDIR:-$HOME}/.zprezto/modules/prompt/functions/prompt_setup"
+ln -s "${ZDOTDIR:-$HOME}/.dotfiles/zsh/prompt_bzang_setup" "${ZDOTDIR:-$HOME}/.zprezto/modules/prompt/functions/prompt_bzang_setup"
 
 echo $SHELL
 

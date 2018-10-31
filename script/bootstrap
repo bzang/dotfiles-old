@@ -18,7 +18,7 @@ source "$(dirname "$0")/install_dotfiles"
 if [ "$(uname -s)" == "Darwin" ]
 then
   info "installing dependencies"
-  if source bin/dot-setup > /tmp/dotfiles-dot 2>&1
+  if source bin/dot-update > /tmp/dotfiles-dot 2>&1
   then
     success "dependencies installed"
   else
