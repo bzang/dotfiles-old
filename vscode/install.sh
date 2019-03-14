@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -x
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
 echo "Linking VSCode Settings"
 cd $HOME/Library/Application\ Support/Code/
 ln -sFh $HOME/.dotfiles/vscode/settings User
 
-cat "$HOME/.dotfiles/vscode/extensions_list.txt" | xargs -I % code --install-extension %
+$DIR/install_extensions.sh
