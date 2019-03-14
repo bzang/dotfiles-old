@@ -118,7 +118,7 @@
 			<key>Ruby_on_Rails_Offline</key>
 			<dict>
 				<key>date</key>
-				<date>2018-09-21T03:29:59Z</date>
+				<date>2018-11-01T18:08:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -496,7 +496,21 @@
 	<key>versionedFeeds</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
+			<dict>
+				<key>5.1.0</key>
+				<dict>
+					<key>date</key>
+					<date>2018-11-05T14:15:30Z</date>
+				</dict>
+				<key>5.2.1</key>
+				<dict>
+					<key>date</key>
+					<date>2018-11-05T14:15:24Z</date>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict/>
 	</dict>

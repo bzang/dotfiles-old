@@ -45,7 +45,6 @@
     "gitlens.historyExplorer.enabled": true,
     "gitlens.currentLine.enabled": false,
     "terminal.external.osxExec": "iTerm2.app",
-    "terminal.integrated.scrollback": 5000,
     "workbench.colorTheme": "One Dark Pro Vivid",
     "[javascript]": {},
     "gitlens.views.fileHistory.enabled": true,
@@ -53,6 +52,9 @@
     "[html.erb]": {
     },
     "files.associations": {
-        "*.html.erb": "erb"
-    }
+        "*.html.erb": "erb",
+        "*.erb": "erb"
+    },
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "editor.fontLigatures": true
 }
