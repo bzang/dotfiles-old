@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "'Inconsolata for Powerline', Monaco, monospace",
-    "editor.fontSize": 15,
+    "editor.fontFamily": "'Dank Mono', 'Inconsolata for Powerline', Monaco, monospace",
+    "editor.fontSize": 14,
     "editor.rulers": [80,120],
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded",
@@ -25,7 +25,7 @@
     },
     "workbench.iconTheme": "vscode-icons",
     "explorer.openEditors.visible": 0,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "gitlens.keymap": "alternate",
     "javascript.validate.enable": false,
@@ -44,13 +44,15 @@
     "search.location": "panel",
     "gitlens.historyExplorer.enabled": true,
     "gitlens.currentLine.enabled": false,
-    "githubPullRequests.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
     "terminal.external.osxExec": "iTerm2.app",
-    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.scrollback": 5000,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "[javascript]": {},
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "[html.erb]": {
+    },
+    "files.associations": {
+        "*.html.erb": "erb"
+    }
 }
