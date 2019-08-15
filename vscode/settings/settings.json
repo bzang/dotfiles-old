@@ -56,5 +56,6 @@
         "*.erb": "erb"
     },
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "material-icon-theme.showWelcomeMessage": false
 }

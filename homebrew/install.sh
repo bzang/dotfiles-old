@@ -15,6 +15,6 @@ fi
 brew tap caskroom/cask
 
 # Install homebrew packages
-brew install grc coreutils spark git libmagic imagemagick ruby python tig zsh hub
+brew bundle
 
 exit 0

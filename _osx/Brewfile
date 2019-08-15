@@ -1,0 +1,7 @@
+tap 'caskroom/homebrew-cask' || true
+cask 'iterm2'
+cask 'visual-studio-code'
+cask 'google-chrome'
+cask 'slack'
+cask '1password'
+cask 'istat-menus'
